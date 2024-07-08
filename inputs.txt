@@ -1,0 +1,48 @@
+ld x2, 415(x31)
+sd x2, 42(x11)
+ld x2, 415(x4)
+sd x3, 42(x4)
+ld x21, 2(x4)
+ld x5, 11(x21)
+sd x5, 11(x15)
+sd x15, 11(x5)
+ld x5, 11(x15)
+add x0, x27, x2
+add x0, x7, x24
+ld x5, 11(x15)
+sd x15, 11(x5)
+add x0, x1, x2
+or x31, x21, x23
+or x21, x31, x0
+sd x15, 11(x5)
+ld x5, 11(x15)
+or x25, x0, x28
+ld x23, 415(x14)
+and x5, x23, x21
+ld x2, 415(x24)
+ld x2, 415(x4)
+sub x4, x0, x31
+ld x23, 415(x14)
+and x0, x23, x21
+add x0, x0, x0
+ld x6, 20*8(x5)
+ld x0, 415(x4)
+add x19, x0, x6
+ld x6, 20*8(x5)
+ld x0, 415(x4)
+add x19, x12, x5
+ld x6, 8*20(x19)
+add x31, x0, x0
+ld x5, 16(x3)
+add x7, x0, x0
+add x5, x0, x0
+or x5, x5, x7
+ld x7, 12*8(x5)
+ld x23, 415(x0)
+sub x0, x0, x5
+add x5, x27, x27
+add t2, x27, x27
+sub x5, x5, x0
+add x5, x27, x5
+or x9, x8, x3
+sw x11, 0(x9)
